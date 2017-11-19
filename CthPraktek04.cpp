@@ -21,5 +21,28 @@ return true;
 }
 
 int main( ){
-
+int pembilang, penyebut;
+pembilang = 36;
+penyebut = 6;
+cout << pembilang << " / " << penyebut<< " = ";
+ConvertToLowestTerms(pembilang, penyebut);
+cout << pembilang << " / " << penyebut << endl;
+pembilang = 43;
+penyebut = 17;
+cout << pembilang << " / " << penyebut<< " = ";
+ConvertToLowestTerms(pembilang, penyebut);
+cout << pembilang << " / " << penyebut << endl;
+pembilang = 0;
+penyebut = 0;
+cout << pembilang << " / " << penyebut<< " = ";
+ConvertToLowestTerms(pembilang, penyebut);
+cout << pembilang << " / " << penyebut << endl;
+pembilang = 165;
+penyebut = 45;
+cout << pembilang << " / " << penyebut<< " = ";
+ConvertToLowestTerms(pembilang, penyebut);
+cout << pembilang << " / " << penyebut << endl;
+cout << "Masukkan huruf sembarang untuk keluar program." << endl;
+char wait; cin >> wait;
+return 0;
 }
